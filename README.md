@@ -1,5 +1,11 @@
 # ChatGPT Skill Launcher
 
+# ChatGPT Skill Launcher
+
+<p align="center">
+  <img src="./preview.png" alt="ChatGPT Skill Launcher preview" width="720">
+</p>
+
 Tiny Arc/Chromium extension: when you open ChatGPT, a minimalist skill picker appears. Select one or more markdown skills, and the extension pastes them into the ChatGPT composer, sends the prompt, then disappears.
 
 ## Use in Arc
