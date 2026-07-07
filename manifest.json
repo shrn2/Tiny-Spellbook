@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Skill Launcher",
+  "name": "Tiny Spellbook",
   "version": "0.2.0",
-  "description": "Pick a local or SkillsMP skill when ChatGPT opens, send it as the first prompt, then get out of the way.",
+  "description": "Start ChatGPT chats with reusable local and SkillsMP markdown skills.",
   "permissions": [
     "storage"
   ],

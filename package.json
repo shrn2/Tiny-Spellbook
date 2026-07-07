@@ -1,8 +1,8 @@
 {
-  "name": "arc-chatgpt-skill-launcher",
-  "version": "0.1.0",
+  "name": "tiny-spellbook",
+  "version": "0.2.0",
   "private": true,
-  "description": "Arc/Chromium extension that launches ChatGPT with a chosen markdown skill.",
+  "description": "Arc/Chrome extension for starting ChatGPT chats with reusable markdown skills.",
   "scripts": {
     "build:index": "node scripts/generate-skill-index.js",
     "build": "npm run build:index"
