@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Skill Launcher",
+  "version": "0.2.0",
+  "description": "Pick a local or SkillsMP skill when ChatGPT opens, send it as the first prompt, then get out of the way.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://skillsmp.com/*",
+    "https://github.com/*",
+    "https://api.github.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "skill-index.json",
+        "skills/*.md"
+      ],
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ]
+    }
+  ]
+}

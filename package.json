@@ -1,0 +1,10 @@
+{
+  "name": "arc-chatgpt-skill-launcher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Arc/Chromium extension that launches ChatGPT with a chosen markdown skill.",
+  "scripts": {
+    "build:index": "node scripts/generate-skill-index.js",
+    "build": "npm run build:index"
+  }
+}
